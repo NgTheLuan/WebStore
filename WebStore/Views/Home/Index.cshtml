@@ -1,0 +1,92 @@
+﻿@model List<WebStore.Models.PRODUCT>
+
+<style>
+    h2 {
+       color: mediumseagreen;
+    }
+</style>
+
+
+
+@section Header{
+    <div id="templatemo_middle">
+        <img src="~/images/templatemo_image_01.png" alt="Image 01" />
+        <h1>Introducing Web Store</h1>
+        <p>Web Store is a free css template for your personal or commercial websites. Feel free to download, edit and use this template for any purpose.</p>
+        <a href="#" class="buy_now">Browse All Products</a>
+    </div> <!-- END of middle -->
+}
+
+@section ProductSlider {
+    <div id="product_slider">
+        <div id="SlideItMoo_outer">
+            <div id="SlideItMoo_inner">
+                <div id="SlideItMoo_items">
+                    <div class="SlideItMoo_element">
+                        <a href="#slide1" target="_parent">
+                            <img src="https://salt.tikicdn.com/cache/w390/ts/product/c5/eb/03/f429dddf3cf537a09baae71049618192.jpg" width="120" alt="product 1" />
+                        </a>
+                    </div>
+                    <div class="SlideItMoo_element">
+                        <a href="#slide2" target="_parent">
+                            <img src="https://salt.tikicdn.com/cache/w390/media/catalog/product/i/x/ixus-185-do-1.u2751.d20170327.t112757.200293.jpg" width="120" alt="product 2" />
+                        </a>
+                    </div>
+                    <div class="SlideItMoo_element">
+                        <a href="#slide3" target="_parent">
+                            <img src="https://salt.tikicdn.com/cache/w390/ts/product/7e/ac/87/5ae17baf397c964f27cc28afc9fd7123.jpg" width="120" alt="product 3" />
+                        </a>
+                    </div>
+                    <div class="SlideItMoo_element">
+                        <a href="#slide4" target="_parent">
+                            <img src="https://salt.tikicdn.com/cache/w390/media/catalog/product/m/i/mini9_smokey-white_01_md.u5168.d20170608.t122932.377328.jpg" width="120" alt="product 4" />
+                        </a>
+                    </div>
+                    <div class="SlideItMoo_element">
+                        <a href="#slide5" target="_parent">
+                            <img src="https://salt.tikicdn.com/cache/w390/media/catalog/product/1/1/1102009.jpg" width="120" alt="product 5" />
+                        </a>
+                    </div>
+
+                    <div class="SlideItMoo_element">
+                        <a href="#slide6" target="_parent">
+                            <img src="https://salt.tikicdn.com/cache/w390/ts/product/df/75/ae/c32d74633c701431864bc6878e8d1ec4.jpg" width="120" alt="product 7" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+
+    <div id="content">
+        @*<div style="color:royalblue; float:right ; font-size:large;">Hi! @Session["Logged"], have a good day </div>*@
+        <div class="cleaner"></div>
+        <h2><i class="fas fa-camera-retro"></i> Product</h2>
+        @for (int i = 1; i <= Model.Count(); i++)
+        {
+            if (i % 3 == 2)
+            {
+                <div class="col col_14 product_gallery">
+                    <a href="@Url.Action("ProductDetail","Product",new{ proid = Model[i - 1].ID_Product })"><img src="@Model[i - 1].Image" width="180" /></a>
+                    <h3>@Model[i - 1].ProductName</h3>
+                    <p class="product_price">$ @Model[i - 1].Price</p>
+                    <a href="@Url.Action("AddtoCart", "Cart", new { IDPro = Model[i-1].ID_Product })" class="add_to_cart">Add To Cart</a>
+                </div>
+            }
+            else
+            {
+                <div class="col col_14 product_gallery no_margin_right">
+                    <a href="@Url.Action("ProductDetail","Product",new{ proid = Model[i - 1].ID_Product })"><img src="@Model[i - 1].Image" width="180" /></a>
+                    <h3>@Model[i - 1].ProductName</h3>
+                    <p class="product_price">$ @Model[i - 1].Price</p>
+                    <a href="@Url.Action("AddtoCart", "Cart", new { IDPro = Model[i-1].ID_Product })" class="add_to_cart">Add To Cart</a>
+                </div>
+            }
+        }
+
+        @Html.Action("SaleProduct", "Product")
+
+
+    </div> <!-- END of content -->

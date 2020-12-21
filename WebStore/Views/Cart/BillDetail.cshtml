@@ -1,0 +1,29 @@
+﻿@model List<WebStore.Models.BILLDETAIL>
+
+
+
+<table table width="700" cellspacing="0" cellpadding="5">
+    <tr bgcolor="#CCCCCC">
+        <th width="10" align="left">ID </th>
+        <th width="200" align="left">Name </th>
+        <th width="100" align="left">Quantity </th>
+        <th width="60" align="left">Price </th>
+        <th width="100" align="left">Total </th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td align="left">@item.ID_Product</td>
+            <td align="left">@item.ProductName</td>
+            <td align="left">@item.Quantity</td>
+            <td align="left">@item.Price</td>
+            <td align="left">@item.Total </td>
+
+        </tr>
+
+    }
+
+</table>
+<div style="background:#ccc; font-weight:bold; padding:8px 0px 2px 0px;text-align:center">
+    <h4>TOTAL:<strong> $@Model.Sum(m => m.Total)</strong></h4>
+</div>

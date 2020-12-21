@@ -1,0 +1,12 @@
+﻿@model List<WebStore.Models.CART>
+<style>
+    #cart {
+        font-size: 15px;
+    }
+</style>
+<a href="@Url.Action("Index","Cart")">
+    <span style="color:orange; font-size: 120%">
+        <i class="fas fa-shopping-cart" id="cart"></i>
+    </span>
+    <span style="margin-left:5px;font-size:15px; color:orange">@Model.Sum(m => m.Quantity)</span>
+</a>

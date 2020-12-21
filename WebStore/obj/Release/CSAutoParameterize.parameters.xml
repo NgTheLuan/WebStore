@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="WebStoreGearHost-Web.config Connection String" description="WebStoreGearHost Connection String used in web.config by the application to access the database." defaultValue="data source=den1.mssql8.gear.host;initial catalog=dbwebstore;persist security info=True;user id=dbwebstore;password=Zj70X3FL-HA~;MultipleActiveResultSets=True;App=EntityFramework" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\DeadLine\\Phát\ Triển\ Web\ \(Web\ Development\)\\WebStore\\WebStore\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='WebStoreGearHost']/@connectionString" />
+  </parameter>
+</parameters>

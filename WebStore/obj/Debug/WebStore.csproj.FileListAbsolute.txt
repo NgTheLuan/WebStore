@@ -1,0 +1,240 @@
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\WebStore.dll.config
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\WebStore.dll
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\WebStore.pdb
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\roslyn\csc.exe
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\roslyn\csc.exe.config
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\roslyn\csc.rsp
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\roslyn\csi.exe
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\roslyn\csi.exe.config
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\roslyn\csi.rsp
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\roslyn\Microsoft.Managed.Core.targets
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\roslyn\System.AppContext.dll
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\roslyn\System.Collections.Immutable.dll
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\roslyn\System.Console.dll
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\roslyn\System.IO.Compression.dll
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\roslyn\System.IO.FileSystem.dll
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\roslyn\System.IO.Pipes.dll
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\roslyn\System.Reflection.Metadata.dll
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\roslyn\System.Security.AccessControl.dll
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\roslyn\System.Security.Claims.dll
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\roslyn\System.Security.Principal.Windows.dll
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\roslyn\System.ValueTuple.dll
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\roslyn\System.Xml.XmlDocument.dll
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\roslyn\System.Xml.XPath.dll
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\roslyn\vbc.exe
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\roslyn\vbc.exe.config
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\roslyn\vbc.rsp
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\roslyn\VBCSCompiler.exe
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\roslyn\VBCSCompiler.exe.config
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\Antlr3.Runtime.dll
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\Microsoft.Web.Infrastructure.dll
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\Newtonsoft.Json.dll
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\System.Web.Helpers.dll
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\System.Web.Mvc.dll
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\System.Web.Optimization.dll
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\System.Web.Razor.dll
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\System.Web.WebPages.Deployment.dll
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\System.Web.WebPages.dll
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\System.Web.WebPages.Razor.dll
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\WebGrease.dll
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\System.Web.Helpers.xml
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\System.Web.Mvc.xml
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\System.Web.Optimization.xml
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\System.Web.Razor.xml
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\System.Web.WebPages.xml
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\System.Web.WebPages.Deployment.xml
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\System.Web.WebPages.Razor.xml
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\Newtonsoft.Json.xml
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\Antlr3.Runtime.pdb
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\obj\Debug\WebStore.csprojAssemblyReference.cache
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\obj\Debug\WebStore.csproj.CoreCompileInputs.cache
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\obj\Debug\WebStore.csproj.CopyComplete
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\obj\Debug\WebStore.dll
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\obj\Debug\WebStore.pdb
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\EntityFramework.dll
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\EntityFramework.SqlServer.dll
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\EntityFramework.xml
+D:\DeadLine\Phát Triển Web (Web Development)\WebStore\WebStore\bin\EntityFramework.SqlServer.xml
+D:\Tools\WebStore\WebStore\bin\WebStore.dll.config
+D:\Tools\WebStore\WebStore\bin\WebStore.dll
+D:\Tools\WebStore\WebStore\bin\WebStore.pdb
+D:\Tools\WebStore\WebStore\bin\roslyn\csc.exe
+D:\Tools\WebStore\WebStore\bin\roslyn\csc.exe.config
+D:\Tools\WebStore\WebStore\bin\roslyn\csc.rsp
+D:\Tools\WebStore\WebStore\bin\roslyn\csi.exe
+D:\Tools\WebStore\WebStore\bin\roslyn\csi.exe.config
+D:\Tools\WebStore\WebStore\bin\roslyn\csi.rsp
+D:\Tools\WebStore\WebStore\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Tools\WebStore\WebStore\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Tools\WebStore\WebStore\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Tools\WebStore\WebStore\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Tools\WebStore\WebStore\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Tools\WebStore\WebStore\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Tools\WebStore\WebStore\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Tools\WebStore\WebStore\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Tools\WebStore\WebStore\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Tools\WebStore\WebStore\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Tools\WebStore\WebStore\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Tools\WebStore\WebStore\bin\roslyn\System.AppContext.dll
+D:\Tools\WebStore\WebStore\bin\roslyn\System.Collections.Immutable.dll
+D:\Tools\WebStore\WebStore\bin\roslyn\System.Console.dll
+D:\Tools\WebStore\WebStore\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Tools\WebStore\WebStore\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Tools\WebStore\WebStore\bin\roslyn\System.IO.Compression.dll
+D:\Tools\WebStore\WebStore\bin\roslyn\System.IO.FileSystem.dll
+D:\Tools\WebStore\WebStore\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Tools\WebStore\WebStore\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Tools\WebStore\WebStore\bin\roslyn\System.IO.Pipes.dll
+D:\Tools\WebStore\WebStore\bin\roslyn\System.Reflection.Metadata.dll
+D:\Tools\WebStore\WebStore\bin\roslyn\System.Security.AccessControl.dll
+D:\Tools\WebStore\WebStore\bin\roslyn\System.Security.Claims.dll
+D:\Tools\WebStore\WebStore\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Tools\WebStore\WebStore\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Tools\WebStore\WebStore\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Tools\WebStore\WebStore\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Tools\WebStore\WebStore\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Tools\WebStore\WebStore\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Tools\WebStore\WebStore\bin\roslyn\System.ValueTuple.dll
+D:\Tools\WebStore\WebStore\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Tools\WebStore\WebStore\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Tools\WebStore\WebStore\bin\roslyn\System.Xml.XPath.dll
+D:\Tools\WebStore\WebStore\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Tools\WebStore\WebStore\bin\roslyn\vbc.exe
+D:\Tools\WebStore\WebStore\bin\roslyn\vbc.exe.config
+D:\Tools\WebStore\WebStore\bin\roslyn\vbc.rsp
+D:\Tools\WebStore\WebStore\bin\roslyn\VBCSCompiler.exe
+D:\Tools\WebStore\WebStore\bin\roslyn\VBCSCompiler.exe.config
+D:\Tools\WebStore\WebStore\bin\Antlr3.Runtime.dll
+D:\Tools\WebStore\WebStore\bin\EntityFramework.dll
+D:\Tools\WebStore\WebStore\bin\EntityFramework.SqlServer.dll
+D:\Tools\WebStore\WebStore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Tools\WebStore\WebStore\bin\Microsoft.Web.Infrastructure.dll
+D:\Tools\WebStore\WebStore\bin\Newtonsoft.Json.dll
+D:\Tools\WebStore\WebStore\bin\System.Web.Helpers.dll
+D:\Tools\WebStore\WebStore\bin\System.Web.Mvc.dll
+D:\Tools\WebStore\WebStore\bin\System.Web.Optimization.dll
+D:\Tools\WebStore\WebStore\bin\System.Web.Razor.dll
+D:\Tools\WebStore\WebStore\bin\System.Web.WebPages.Deployment.dll
+D:\Tools\WebStore\WebStore\bin\System.Web.WebPages.dll
+D:\Tools\WebStore\WebStore\bin\System.Web.WebPages.Razor.dll
+D:\Tools\WebStore\WebStore\bin\WebGrease.dll
+D:\Tools\WebStore\WebStore\bin\EntityFramework.xml
+D:\Tools\WebStore\WebStore\bin\EntityFramework.SqlServer.xml
+D:\Tools\WebStore\WebStore\bin\System.Web.Helpers.xml
+D:\Tools\WebStore\WebStore\bin\System.Web.Mvc.xml
+D:\Tools\WebStore\WebStore\bin\System.Web.Optimization.xml
+D:\Tools\WebStore\WebStore\bin\System.Web.Razor.xml
+D:\Tools\WebStore\WebStore\bin\System.Web.WebPages.xml
+D:\Tools\WebStore\WebStore\bin\System.Web.WebPages.Deployment.xml
+D:\Tools\WebStore\WebStore\bin\System.Web.WebPages.Razor.xml
+D:\Tools\WebStore\WebStore\bin\Newtonsoft.Json.xml
+D:\Tools\WebStore\WebStore\bin\Antlr3.Runtime.pdb
+D:\Tools\WebStore\WebStore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Tools\WebStore\WebStore\obj\Debug\WebStore.csprojAssemblyReference.cache
+D:\Tools\WebStore\WebStore\obj\Debug\WebStore.csproj.CoreCompileInputs.cache
+D:\Tools\WebStore\WebStore\obj\Debug\WebStore.csproj.CopyComplete
+D:\Tools\WebStore\WebStore\obj\Debug\WebStore.dll
+D:\Tools\WebStore\WebStore\obj\Debug\WebStore.pdb
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\WebStore.dll.config
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\WebStore.dll
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\WebStore.pdb
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\roslyn\csc.exe
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\roslyn\csc.exe.config
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\roslyn\csc.rsp
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\roslyn\csi.exe
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\roslyn\csi.exe.config
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\roslyn\csi.rsp
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\roslyn\Microsoft.Managed.Core.targets
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\roslyn\System.AppContext.dll
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\roslyn\System.Collections.Immutable.dll
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\roslyn\System.Console.dll
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\roslyn\System.IO.Compression.dll
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\roslyn\System.IO.FileSystem.dll
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\roslyn\System.IO.Pipes.dll
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\roslyn\System.Reflection.Metadata.dll
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\roslyn\System.Security.AccessControl.dll
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\roslyn\System.Security.Claims.dll
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\roslyn\System.Security.Principal.Windows.dll
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\roslyn\System.ValueTuple.dll
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\roslyn\System.Xml.XmlDocument.dll
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\roslyn\System.Xml.XPath.dll
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\roslyn\vbc.exe
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\roslyn\vbc.exe.config
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\roslyn\vbc.rsp
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\roslyn\VBCSCompiler.exe
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\roslyn\VBCSCompiler.exe.config
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\Antlr3.Runtime.dll
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\EntityFramework.dll
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\EntityFramework.SqlServer.dll
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\Microsoft.Web.Infrastructure.dll
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\Newtonsoft.Json.dll
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\System.Web.Helpers.dll
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\System.Web.Mvc.dll
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\System.Web.Optimization.dll
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\System.Web.Razor.dll
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\System.Web.WebPages.Deployment.dll
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\System.Web.WebPages.dll
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\System.Web.WebPages.Razor.dll
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\WebGrease.dll
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\EntityFramework.xml
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\EntityFramework.SqlServer.xml
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\System.Web.Helpers.xml
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\System.Web.Mvc.xml
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\System.Web.Optimization.xml
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\System.Web.Razor.xml
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\System.Web.WebPages.xml
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\System.Web.WebPages.Deployment.xml
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\System.Web.WebPages.Razor.xml
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\Newtonsoft.Json.xml
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\Antlr3.Runtime.pdb
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\obj\Debug\WebStore.csprojAssemblyReference.cache
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\obj\Debug\WebStore.csproj.CoreCompileInputs.cache
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\obj\Debug\WebStore.csproj.CopyComplete
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\obj\Debug\WebStore.dll
+D:\DeadLine\Phát Triển Web (Web Development)\Temp\WebStore\WebStore\obj\Debug\WebStore.pdb

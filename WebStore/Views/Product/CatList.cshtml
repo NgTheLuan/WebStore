@@ -1,0 +1,29 @@
+﻿@model List<WebStore.Models.PRODUCT>
+@{
+    ViewBag.Title = "List Category";
+}
+
+<h2>List Category</h2>
+@for (int i = 1; i <= Model.Count(); i++)
+{
+    if (i % 3 == 2)
+    {
+        <div class="col col_14 product_gallery">
+            <a href="@Url.Action("ProductDetail","Product",new{ proid = Model[i - 1].ID_Product })"><img src="@Model[i-1].Image" alt="Product 01" width="180" /></a>
+            <h3>@Model[i - 1].ProductName</h3>
+            <p class="product_price">$@Model[i - 1].Price</p>
+            <a href="#" class="add_to_cart">Add to Cart</a>
+        </div>
+    }
+    else
+    {
+        <div class="col col_14 product_gallery no_margin_right">
+            <a href="@Url.Action("ProductDetail","Product",new{ proid = Model[i - 1].ID_Product })"><img src="@Model[i-1].Image" alt="Product 02" width="180" /></a>
+            <h3>@Model[i - 1].ProductName</h3>
+            <p class="product_price">$@Model[i - 1].Price</p>
+            <a href="#" class="add_to_cart">Add to Cart</a>
+        </div>
+    }
+}
+
+

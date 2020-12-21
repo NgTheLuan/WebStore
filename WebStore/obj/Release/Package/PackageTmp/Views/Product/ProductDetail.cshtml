@@ -1,0 +1,65 @@
+﻿@model WebStore.Models.PRODUCT
+@{
+    ViewBag.Title = "ProductDetail";
+}
+
+
+<div id="content">
+    <h2> <i class="fas fa-camera-retro"></i> Product Detail</h2>
+    <div class="col col_13">
+        <a rel="lightbox[portfolio]" href="@Model.Image"><img src="@Model.Image" , width="250" /></a>
+    </div>
+    <div class="col col_13 no_margin_right">
+        <table>
+            <tr>
+                <td height="30" width="160">Name:</td>
+                <td>@Model.ProductName</td>
+            </tr>
+            <tr>
+                <td height="30">Origin:</td>
+                <td>@Model.Origin</td>
+            </tr>
+            <tr>
+                <td height="30">Weight: </td>
+                <td>@Model.Weight</td>
+            </tr>
+            <tr>
+                <td height="30">Price: </td>
+                <td>$ @Model.Price</td>
+            </tr>
+            <tr><td height="30">Quantity</td><td><input type="text" value="1" style="width: 20px; text-align: right" /></td></tr>
+        </table>
+        <div class="cleaner h20"></div>
+        <a href="@Url.Action("AddtoCart", "Cart", new { IDPro = Model.ID_Product })" class="add_to_cart">Add To Cart</a>
+    </div>
+    <div class="cleaner h30"></div>
+
+    <h5><strong> Product Description</strong></h5>
+    <p>@Model.Detail</p>
+
+
+    <div class="cleaner h50"></div>
+
+    <h4>Other Products</h4>
+    <div class="col col_14 product_gallery">
+        <a href="#"><img src="https://salt.tikicdn.com/cache/w390/ts/product/ab/c1/69/00a248a6b7849f83ea1d9cb630ac89d5.jpg" width="150" alt="Product 01" /></a>
+        <h3>Sandisk Extreme Pro 64Gb</h3>
+        <p class="product_price">$ 17.69</p>
+        <a href="#" class="add_to_cart">Add to Cart</a>
+    </div>
+    <div class="col col_14 product_gallery">
+        <a href="#"><img src="https://salt.tikicdn.com/cache/w390/ts/product/14/18/5a/19da10cb95de985a61bbb3106a7d227e.jpg" width="150" alt="Product 02" /></a>
+        <h3>Film Fujifilm Mini (20 sheets)</h3>
+        <p class="product_price">$ 10.73</p>
+        <a href="#" class="add_to_cart">Add to Cart</a>
+    </div>
+    <div class="col col_14 product_gallery no_margin_right">
+        <a href="#"><img src="https://salt.tikicdn.com/cache/w390/ts/product/fe/6b/4b/116ff95504cafa8b171c097a144f1555.jpg" width="150" alt="Product 03" /></a>
+        <h3>Gimbal Zhiyun Smooth 4 </h3>
+        <p class="product_price">$ 69.02</p>
+        <a href="#" class="add_to_cart">Add to Cart</a>
+    </div>
+    <a href="#" class="more float_r">View all</a>
+
+    <div class="cleaner"></div>
+</div>

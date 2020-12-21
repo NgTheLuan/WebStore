@@ -1,0 +1,11 @@
+﻿@model List<WebStore.Models.TYPE_PRODUCT>
+
+<h3>Categories</h3>
+<ul class="sidebar_menu">
+    @foreach (var type in Model)
+    {
+        <li><a href="@Url.Action("Catlist","Product", new {ID_Category = type.ID_ProductType })">@type.NameProductType</a></li>
+    }
+</ul>
+
+

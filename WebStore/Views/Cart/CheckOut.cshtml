@@ -1,0 +1,113 @@
+﻿@model List<WebStore.Models.CART>
+
+<style>
+    h2{
+        color:indianred;
+    }
+</style>
+
+
+<h2>Checkout</h2>
+<h5><strong>BILLING DETAILS</strong></h5>
+
+@using (Html.BeginForm("ProcessOrder", "Cart", FormMethod.Post, new { id = "" }))
+{
+    <div class="col col_13 checkout">
+        <label>Full Name:</label>
+        <input type="text" name="cusName" style="width:300px;" />
+        <label>Address:</label>
+        <input type="text" name="cusAddress" style="width:300px;" />
+        <label>City:</label>
+        <input type="text" name="cusCity" style="width:300px;" />
+        <p><input type="checkbox" />I have accepted the <a href="#">Terms of Use</a>.</p>
+       
+    </div>
+    <div class="col col_13 checkout">
+        <label>E-Mail:</label>
+        <input type="email" name="cusEmail" style="width:300px;" />
+        <label>Phone: </label>
+        <span style="font-size:10px"></span>
+        <input type="tel" name="cusPhone" style="width:300px;" />
+        <label>Country:</label>
+        <input type="text" name="cusCountry" style="width:300px;" />
+       
+    </div>
+    <table style="border:1px solid #CCCCCC; margin-left:20%" width="66%">
+        <tr>
+            <td height="80px">  <img width="80%" height="110%" src="~/images/payment.png" alt="paypal" /></td>
+            <td>
+                Recommended if you have Payment on delivery. Fastest delivery time.
+            </td>
+            <td> <input type="submit" value="Continue to payment" style="float:right;margin-top:20%; border:none; color: dimgrey; text-decoration: none; padding-bottom:10%; color:darkturquoise; font-weight: bold; cursor:pointer; margin-top:-5%; margin-right:10%; padding-top:8%" /></td>
+        </tr>
+    </table>
+}
+
+<div id="content">
+    <h3>Shopping Cart</h3>
+    @if (Model == null || Model.Count == 0)
+    {
+        <span style="text-align:right; color:red">Your shopping cart is empty</span>
+    }
+    else
+    {
+        <table width="700" cellspacing="0" cellpadding="5">
+            <tr bgcolor="#CCCCCC">
+                <th width="50" align="center">ID </th>
+                <th width="230" align="center">Image </th>
+                <th width="230" align="left">Name </th>
+                <th width="100" align="left">Quantity </th>
+                <th width="60" align="right">Price </th>
+                <th width="100" align="right" class="Total">Total </th>
+                <th width="90"> </th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td id="IDProduct" align="center">@item.ID_Product</td>
+                    <td align="center"><img src="@item.Image" ,width="170" , height="150" /></td>
+                    <td>@item.ProductName</td>
+                    <td align="center">@item.Quantity</td>
+                    <td align="right">@item.Price</td>
+                    <td align="right" class="Total">@item.Total </td>
+                    <td align="center"> <a href="@Url.Action("Deleted", new { IDPro = item.ID_Product })"><img src="~/images/remove_x.gif" alt="remove" /><br />Remove</a> </td>
+                </tr>
+            }
+
+        </table>
+    }
+
+    <div class="col col_13 checkout">
+
+    </div>
+    <div class="cleaner h50"></div>
+
+
+    <h4>TOTAL: <strong>$@Model.Sum(m => m.Total)</strong></h4>
+    <table style="border:1px solid #CCCCCC;" width="100%">
+        <tr>
+            <td height="80px"> <img src="~/images/paypal.gif" alt="paypal" /></td>
+            <td width="400px;" style="padding: 0px 20px; color:red; font-style:italic">
+               Paypal payments are under maintenance !
+            </td>
+            <td><a href="#" class="more">PAYPAL</a></td>
+        </tr>
+        <tr>
+            <td height="80px">
+                <img src="~/images/2co.gif" alt="paypal" />
+            </td>
+            <td width="400px;" style="padding: 0px 20px;">
+                2Checkout.com, Inc. is an authorized retailer of goods and services provided by Template-Guide.com. 2CheckOut accepts customer orders via online checks, Visa, MasterCard, Discover, American Express, Diners, JCB and debit cards with the Visa, Mastercard logo.
+            </td>
+            <td><a href="#" class="more">CHECKOUT</a></td>
+        </tr>
+    </table>
+
+    @*<button ><a href="@Url.Action("SuccessOrder","Cart",new { hdid= })"></a> Next</button>*@
+    @*</div>*@
+
+</div>
+
+
+

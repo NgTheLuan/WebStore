@@ -1,0 +1,235 @@
+﻿@model WebStore.Models.BILL
+<style>
+    /*.clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+    }*/
+
+    /*a {
+        color: #5D6975;
+        text-decoration: underline;
+    }*/
+
+    /*body {
+        position: relative;
+        width: 21cm;
+        height: 29.7cm;
+        margin: 0 auto;
+        color: #001028;
+        background: #FFFFFF;
+        font-family: Arial, sans-serif;
+        font-size: 12px;
+        font-family: Arial;
+    }*/
+
+    /*header {
+        padding: 10px 0;
+        margin-bottom: 30px;
+    }*/
+
+    /*#logo {
+        text-align: center;
+        margin-bottom: 10px;
+    }*/
+
+    /*#logo img {
+            width: 90px;
+    }*/
+
+    #billdetails {
+        border-top: 1px solid #5D6975;
+        border-bottom: 1px solid #5D6975;
+        color: white;
+        font-size: 2.4em;
+        line-height: 1.4em;
+        font-weight: normal;
+        text-align: center;
+        /*margin: 0 0 20px 0;*/
+        margin-bottom: 20px;
+        background-color: orange;
+        width: 100%;
+    }
+
+    /*#project {
+        float: left;
+    }*/
+
+    #project span {
+        color: orange;
+        /*text-align: right;*/
+        width: 52px;
+        margin-right: 10px;
+        display: inline-block;
+        font-size: 12px;
+        padding: 0 0 0 2%
+    }
+
+
+    /*#company {
+        float: right;
+        text-align: right;
+    }*/
+
+    /*#project div,
+      #company div {
+        white-space: nowrap;
+    */
+
+    /*table {
+        width: 100%;
+        border-collapse: collapse;
+        border-spacing: 0;
+        margin-bottom: 20px;
+    }*/
+
+    /*table tr:nth-child(2n-1) td {
+            background: #F5F5F5;
+    }*/
+
+    /*table th,
+        table td {
+            text-align: center;
+        }*/
+
+    /*table th {
+            padding: 5px 20px;
+            color: #5D6975;
+            border-bottom: 1px solid #C1CED9;
+            white-space: nowrap;
+            font-weight: normal;
+        }*/
+
+    /*table .service,
+        table .desc {
+            text-align: left;
+        }*/
+
+    /*table td {
+            padding: 20px;
+            text-align: right;
+        }*/
+
+    /*table td.service,
+            table td.desc {
+                vertical-align: top;
+            }
+
+            table td.unit,
+            table td.qty,
+            table td.total {
+                font-size: 1.2em;
+            }
+
+            table td.grand {
+                border-top: 1px solid #5D6975;
+            }*/
+
+    #notices .notice {
+        color: #5D6975;
+        font-size: 1.2em;
+    }
+
+    /*footer {
+        color: #5D6975;
+        width: 100%;
+        height: 30px;
+        position: absolute;
+        bottom: 0;
+        border-top: 1px solid #C1CED9;
+        padding: 8px 0;
+        text-align: center;
+    }*/
+
+    #btnback a {
+        color: white;
+        border: none;
+        width: 100px;
+        height: 30px;
+        background-color: cornflowerblue;
+        float: right;
+        cursor: pointer;
+        margin-top: 5%;
+        text-decoration: none;
+        text-align: center;
+        padding: 1% 0 0 0;
+    }
+
+    #foo1 {
+        margin-top: 35%;
+        margin-left: 5%;
+    }
+
+
+    #foo2 {
+        text-align: center;
+        padding-top: -50%;
+        padding: 0 0 0 4%;
+        margin-top: 10%;
+    }
+
+    #imglogo {
+        width: 50%;
+        margin-top: -2%;
+        margin-bottom: 5%;
+    }
+</style>
+
+<div id="content">
+    <div id="billdetails">BILL DETAILS</div>
+
+    <div id="project">
+        <div class="col col_13">
+            <div><span>Customer</span> @Model.CustomerName</div>
+            <div><span>Phone</span> @Model.PhoneNumber</div>
+            <div><span>Email</span> @Model.Email</div>
+        </div>
+        <div class="col col_13 no_margin_right">
+            <div><span>Date</span> @Model.DateCreated</div>
+            <div><span>Address</span> @Model.DeliveryAddress, @Model.City, @Model.Country</div>
+            <div><span>Due Date</span> 3 to 5 days</div>
+        </div>
+    </div>
+
+    @Html.Action("BillDetail", "Cart", new { IDbill = Model.ID_Bill })
+
+    <div id="notices">
+        <div>NOTICE:</div>
+        <div class="notice">A invoice will be deleted after 30 days.</div>
+    </div>
+
+
+    <div class="col col_13">
+        <div id="foo2">
+            <h4>Please make check payable to WebStore </h4>
+            <h1>T H A N K Y O U</h1>
+            <img src="~/images/logo.png" id="imglogo" />
+        </div>
+    </div>
+
+
+    <div class="col col_13 no_margin_right">
+        <div id="foo1">
+            <p>For questions concerning this bill, please contact</p>
+            <ul>
+                <li>
+                    Name: Mr.Luân
+                </li>
+                <li>
+                    Tel: (+84)909 774 474
+                </li>
+                <li>
+                    Email: nguyenluan.main@gmail.com
+                </li>
+            </ul>
+
+        </div>
+    </div>
+    <div id="btnback">
+        <a href="@Url.Action("Index","Home")"> Back to Home</a>
+    </div>
+
+</div>
+
+
+

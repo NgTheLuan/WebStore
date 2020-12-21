@@ -1,0 +1,124 @@
+﻿@model WebStore.Models.RegisterModel
+@{
+    ViewBag.Title = "Register";
+}
+
+<style>
+    .text-danger {
+        color: red;
+    }
+
+    .detext {
+        float: right;
+    }
+
+    .formtemp {
+        width: 985px;
+        margin: 0 auto
+    }
+
+    .debtn {
+        width: 110px;
+        height: 40px;
+        background-color: coral;
+        float: right;
+        margin-right: 1%;
+        border: none;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    h2{
+        color:orange;
+    }
+</style>
+
+<h2>Register Information</h2>
+@using (Html.BeginForm("Register", "User", FormMethod.Post))
+{
+    @Html.ValidationMessage("Register", new { @class = "text-danger" })
+    <div class="inner">
+        <div class="form-row">
+            <div class="form-holder">
+                <fieldset>
+                    <legend><i class="far fa-user"></i>&nbsp; First Name</legend>
+                    @Html.ValidationMessageFor(m => m.FName, "", new { @class = "text-danger" })
+                    <input type="text" class="form-control " placeholder="Your FirstName" name="Fname" style="width:300px">  @*@Html.TextBoxFor(m => m.FName, new { @class = "form-control" })*@
+                </fieldset>
+            </div>
+            <div class="form-holder">
+                <fieldset>
+                    <legend><i class="far fa-user"></i>&nbsp; Last Name</legend>
+                    @Html.ValidationMessageFor(m => m.LName, "", new { @class = "text-danger" })
+                    <input type="text" class="form-control " placeholder="Your LastName" name="Lname" style="width:280px">
+                </fieldset>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-holder form-holder-2">
+                <fieldset>
+                    <legend><i class="fas fa-user"></i>&nbsp; UserName</legend>
+                    <input type="text" class="form-control " placeholder="Your UserName" name="UserName" style="width:280px">
+                    @Html.ValidationMessageFor(m => m.UserName, "", new { @class = "text-danger detext" })
+                </fieldset>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-holder form-holder-2">
+                <fieldset>
+                    <legend><i class="fas fa-envelope"></i>&nbsp; Email</legend>
+                    <input type="email" class="form-control " placeholder="Your Email" name="Email" style="width:400px">
+                    @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger detext" })
+                </fieldset>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-holder">
+                <fieldset>
+                    <legend><i class="fas fa-lock"></i>&nbsp; Password</legend>
+                    @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+                    <input type="password" class="form-control " placeholder="Your Password" name="Password" style="width:280px">
+                </fieldset>
+            </div>
+            <div class="form-holder">
+                <fieldset>
+                    <legend><i class="fas fa-lock"></i>&nbsp; Confirm Password</legend>
+                    @Html.ValidationMessageFor(m => m.ConfirmPassword, "", new { @class = "text-danger" })
+                    <input type="password" class="form-control " placeholder="Confirm Password" name="ConfirmPassword" style="width:280px">
+                </fieldset>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-holder form-holder-2">
+                <fieldset>
+                    <legend><i class="fas fa-phone-square-alt"></i>&nbsp; Phone Number</legend>
+                    <input type="text" class="form-control " placeholder="Your PhoneNumber" name="PhoneNumber" style="width:400px">
+                    @Html.ValidationMessageFor(m => m.PhoneNumber, "", new { @class = "text-danger detext" })
+                </fieldset>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-holder form-holder-2">
+                <fieldset>
+                    <legend><i class="fas fa-map-marker-alt"></i>&nbsp; Address</legend>
+                    <input type="text" class="form-control " placeholder="Your Address" name="Address" style="width:400px">
+                    @Html.ValidationMessageFor(m => m.Address, "", new { @class = "text-danger detext" })
+                </fieldset>
+            </div>
+        </div>
+
+        <input type="submit" class="btn btn-default debtn" value="Register" />
+    </div>
+
+
+    @*<div class="wizard-form">
+        <form class="form-register" action="#" method="post"></form>
+    </div>*@
+}
+
+
+
+
+
+
+

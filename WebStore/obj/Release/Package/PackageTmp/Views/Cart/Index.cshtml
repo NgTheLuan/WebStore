@@ -1,0 +1,53 @@
+﻿@model List<WebStore.Models.CART>
+<div id="content">
+    @if (Model == null || Model.Count == 0)
+    {
+        <span style="text-align:right; color:orange"><i class="fas fa-shopping-cart" id="cart"></i> Your shopping cart is empty</span>
+    }
+    else
+    {
+        <table width="700" cellspacing="0" cellpadding="5">
+            <tr bgcolor="#CCCCCC">
+                <th width="50" align="center">ID </th>
+                <th width="230" align="center">Image </th>
+                <th width="230" align="left">Name </th>
+                <th width="100" align="left">Quantity </th>
+                <th width="60" align="right">Price </th>
+                <th width="100" align="right" class="Total">Total </th>
+                <th width="90"> </th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td align="center">@item.ID_Product</td>
+                    <td align="center"><img src="@item.Image" ,width="170" , height="150" /></td>
+                    <td>@item.ProductName</td>
+                    @*<td align="center">@item.Quantity</td>*@
+                    <td>
+                        <form action="@Url.Action("Updated")" method="get">
+                            <input type="hidden" name="IDPro" value="@item.ID_Product" />
+                            <input style="height: 20px; width:50px" type="number" min="1" step="1" name="newQuantity" value="@item.Quantity" />
+                            <button style="margin-top:10%" type="submit" class="btn btn-primary btn-sm"> Update </button>
+                        </form>
+                    </td>
+                    <td align="right">@item.Price</td>
+                    <td align="right" class="Total">@item.Total </td>
+                    <td align="center"> <a href="@Url.Action("Deleted", new { IDPro = item.ID_Product })"><img src="~/images/remove_x.gif" alt="remove" /><br />Remove</a> </td>
+                </tr>
+            }
+
+        </table>
+
+        <div style="float:right; width: 215px; margin-top: 20px;">
+
+            <div class="checkout"><a href="@Url.Action("CheckOut","Cart")" class="more">Proceed to Checkout</a></div>
+            <div class="cleaner h20"></div>
+            <div class="continueshopping"><a href="javascript:history.back()" class="more">Continue Shopping</a></div>
+
+        </div>
+    }
+</div>
+<div class="cleaner"></div>
+
+
