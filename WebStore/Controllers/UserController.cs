@@ -56,7 +56,6 @@ namespace WebStore.Controllers
             return View();
         }
 
-        [HttpGet]
         public ActionResult Login()
         {
             return View();
