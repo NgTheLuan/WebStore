@@ -99,51 +99,65 @@ namespace WebStore.Controllers
 
         public ActionResult CheckOut()
         {
-            var cart = Session["Logged"];
-            var list = new List<CART>();
-            if (cart != null)
+            if (Session["Logged"] != null)
             {
-                list = (List<CART>)cart;
+                var cart = Session[CartSession];
+                var list = new List<CART>();
+                if (cart != null)
+                {
+                    list = (List<CART>)cart;
+                }
+                return View(list);
             }
-            return View(list);
+            else
+            {
+                return RedirectToAction("Login", "User");
+            }
         }
 
         public ActionResult ProcessOrder(FormCollection form)
         {
-            List<CART> listCart = (List<CART>)Session[CartSession];
-            BILL bill = new BILL()
+            if (Session["Logged"] != null)
             {
-                CustomerName = form["cusName"],
-                DeliveryAddress = form["cusAddress"],
-                DateCreated = DateTime.Now,
-                Status = "Processing...",
-                City = form["cusCity"],
-                Country = form["cusCountry"],
-                Email = form["cusEmail"],
-                PhoneNumber = form["cusPhone"],
-
-            };
-            db.BILLs.Add(bill);
-            db.SaveChanges();
-
-            foreach (CART cart in listCart)
-            {
-                BILLDETAIL billdetail = new BILLDETAIL()
+                List<CART> listCart = (List<CART>)Session["CartSession"];
+                BILL bill = new BILL()
                 {
-                    ID_Bill = bill.ID_Bill,
-                    ID_Product = cart.ID_Product,
-                    Quantity = cart.Quantity,
-                    Price = cart.Price,
-                    Total = cart.Total,
-                    ProductName = cart.ProductName,
-                };
-                db.BILLDETAILs.Add(billdetail);
+                    CustomerName = form["cusName"],
+                    DeliveryAddress = form["cusAddress"],
+                    DateCreated = DateTime.Now,
+                    Status = "Processing...",
+                    City = form["cusCity"],
+                    Country = form["cusCountry"],
+                    Email = form["cusEmail"],
+                    PhoneNumber = form["cusPhone"],
 
+                };
+                db.BILLs.Add(bill);
                 db.SaveChanges();
+
+                foreach (CART cart in listCart)
+                {
+                    BILLDETAIL billdetail = new BILLDETAIL()
+                    {
+                        ID_Bill = bill.ID_Bill,
+                        ID_Product = cart.ID_Product,
+                        Quantity = cart.Quantity,
+                        Price = cart.Price,
+                        Total = cart.Total,
+                        ProductName = cart.ProductName,
+                    };
+                    db.BILLDETAILs.Add(billdetail);
+
+                    db.SaveChanges();
+                }
+                int IDBill = bill.ID_Bill;
+                Session.Remove(CartSession);
+                return RedirectToAction("SuccessOrder", "Cart", new { idbill = IDBill });
             }
-            int IDBill = bill.ID_Bill;
-            Session.Remove(CartSession);
-            return RedirectToAction("SuccessOrder", "Cart", new { idbill = IDBill });
+            else
+            {
+                return RedirectToAction("Login", "User");
+            }
         }
 
         public ActionResult SuccessOrder(int IDbill)
